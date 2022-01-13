@@ -1,13 +1,13 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "pheelgee-cloudbees-ops-controller"
 description: "CloudBees CI configuration bundle for the pheelgee-cloudbees ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/pheelgee-cloudbees/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
-items:
-  - "items.yaml"
 catalog:
   - "plugin-catalog.yaml"
+items:
+  - "items.yaml"
